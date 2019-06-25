@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="cn.xiaobao.management.mapper.UserMapper">
+	<select id="findAllUser" resultType="cn.xiaobao.management.entity.User">
+		SELECT
+			uname,upassword,utype
+		FROM
+			user
+	</select>
+</mapper>
+
+
+
+
+
+
+
+
