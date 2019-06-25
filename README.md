@@ -1,2 +1,3 @@
-# Dormitory_Administrator_Management_System
+﻿# Dormitory_Administrator_Management_System
 一个校园宿舍管理系统
+v1.配置好了SSM框架,如需使用只需要改动JDBC文件以及各个自定义类名
