@@ -9,6 +9,14 @@
 		FROM
 			user
 	</select>
+	<select id="findByUserName" resultType="cn.xiaobao.management.entity.User">
+		SELECT
+			uname,upassword,utype
+		FROM
+			user
+		WHERE
+			uname=#{username}
+	</select>
 </mapper>
 
 

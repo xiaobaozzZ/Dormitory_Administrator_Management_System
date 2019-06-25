@@ -14,12 +14,10 @@ public class Test {
 		//获取UserMapper对象
 		UserMapper usermapper = ac.getBean("userMapper", UserMapper.class);
 		//调用Usermapper对象的方法
-		List<User> users = usermapper.findAllUser();
+		User user = usermapper.findByUserName("小宝");
 		//输出数据
 		System.out.println("Begin");
-		for (User user : users) {
-			System.out.println(user);
-		}
+		System.out.println(user);
 		System.out.println("End");
 		//释放资源
 		ac.close();

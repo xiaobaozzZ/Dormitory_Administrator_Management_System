@@ -6,4 +6,5 @@ import cn.xiaobao.management.entity.User;
 
 public interface UserMapper {
 	List<User> findAllUser();
+	User findByUserName(String username);
 }
